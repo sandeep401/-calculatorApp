@@ -11,8 +11,7 @@ import javax.swing.JTextField;
 import javax.swing.JButton;
 import java.awt.Color;
  
-public class AdvanceCalulator extends JFrame implements ActionListener  {
- 
+
 private JFrame frame;
 private JTextField txtnum1;
 private JTextField txtnum2;
@@ -149,6 +148,10 @@ else if(ae.getSource()==btnDiv)
 {
 operation=4;
 getTotal(operation);
+
+
+
+//new code goes here
 }
 }
 }
